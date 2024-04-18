@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #212121;
+color: white;
+}
+.cantainer{
+    height: 55.5rem;
+    width: auto;
+}
+.form{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 35rem;
+    width: 30rem;
+    padding: 3rem;
+    margin: 6rem;
+}
+#ContactUs{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+p{
+    margin: 1rem;
+}
+.input-items{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.input{
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    margin: 0.5rem 0;
+}
+.submet{
+    display: flex;
+    justify-content: end;
+    font-size: 0.5rem;
+    padding: 0.5rem;
+    font-weight: 100;
+    margin: 0.5rem;
+}
+.submet-button{
+    font-size: 1.3rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 0.3rem;
+    margin: 0.3rem 0;
+}
+
+:root{
+    --phone-main-screen-width:width: 100%;
+
+}
+
+/* .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} */
+
+@media screen and (max-width:600px){
+    body{
+        /* background-color: greenyellow; */
+        width: var(--phone-main-screen-width);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #212121;
+        color: white;
+    }
+    .cantainer{
+        display: flex;
+        height: 61.5rem;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+        display: flex;
+        border: 2px solid white;
+        border-radius: 8px;
+        height: 40rem;
+        width: 27rem;
+        padding: 4rem;
+        margin: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
